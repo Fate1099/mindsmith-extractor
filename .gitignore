@@ -1,0 +1,17 @@
+# web-ext build/signing artifacts
+web-ext-artifacts/
+
+# web-ext metadata files
+.amo-upload-uuid
+.web-extension-id
+
+# web-ext run profile
+web-ext-profile/
+
+# Node modules
+node_modules/
+
+# OS junk
+.DS_Store
+Thumbs.db
+*~
