@@ -93,6 +93,6 @@ mindsmith-extractor/
   popup.js          Popup button handler
   overlay.css       Styling for the in-page download button
 
-    ## License
+## License
 
-    MIT
+MIT
