@@ -1,13 +1,17 @@
 {
   "manifest_version": 2,
   "name": "Mindsmith Markdown Extractor",
-  "version": "1.3",
+  "version": "1.4",
   "description": "Extracts Mindsmith lessons to Markdown",
   "browser_specific_settings": {
     "gecko": {
       "id": "{80cdfb9f-2129-4abe-b6e9-e30361767bd3}",
       "strict_min_version": "115.0"
-    }
+    },
+    "gecko_android": {}
+  },
+  "data_collection_permissions": {
+    "permissions": []
   },
   "permissions": [
     "https://app.mindsmith.ai/*"
