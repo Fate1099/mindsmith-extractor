@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Mindsmith Markdown Extractor",
+  "version": "1.2",
+  "description": "Extracts Mindsmith lessons to Markdown",
+  "permissions": [
+    "https://app.mindsmith.ai/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://app.mindsmith.ai/*"],
+      "js": ["content.js"],
+      "css": ["overlay.css"],
+      "all_frames": true,
+      "run_at": "document_start"
+    }
+  ],
+  "web_accessible_resources": ["inject.js"],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "Mindsmith Extractor"
+  }
+}
